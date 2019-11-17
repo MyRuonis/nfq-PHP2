@@ -1,0 +1,22 @@
+{
+    "name": "vendor/kristis",
+    "authors": [
+        {
+            "name": "MyRuonis",
+            "email": "kciulcinskas@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Apartment\\":"src/",
+            "Bedroom\\": "src/",
+            "BookingManager\\":"src/",
+            "Guest\\": "src/",
+            "Reservation\\":"src/",
+            "Room\\": "src/",
+            "SingleRoom\\":"src/",
+            "ReservableInterface\\": "src/"
+        }
+    },
+    "require": {}
+}
